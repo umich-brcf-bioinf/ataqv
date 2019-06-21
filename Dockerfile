@@ -1,11 +1,6 @@
 FROM linuxbrew/linuxbrew
 
-RUN brew install python
-
-RUN brew install snakemake
-
-RUN brew install perl
-RUN brew install gcc
+RUN brew install python@2
 
 RUN brew tap ParkerLab/tap
 
